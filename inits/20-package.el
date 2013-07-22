@@ -10,10 +10,14 @@
     ;; ここに使っているパッケージを書く。
     anything
     auto-complete
+    ;;exec-path-from-shell
     redo+
     popup
     flymake
     js2-mode
+    ruby-block
+    rbenv
+    migemo
     ))
 
 (let ((not-installed (loop for x in installing-package-list
