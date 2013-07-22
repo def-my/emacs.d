@@ -10,7 +10,7 @@
     ;; ここに使っているパッケージを書く。
     anything
     auto-complete
-    ;;exec-path-from-shell
+    exec-path-from-shell
     redo+
     popup
     flymake
