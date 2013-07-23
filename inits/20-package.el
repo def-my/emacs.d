@@ -12,6 +12,8 @@
     auto-complete
     exec-path-from-shell
     redo+
+    undo-tree
+    undo-hist
     popup
     flymake
     js2-mode

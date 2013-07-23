@@ -24,6 +24,14 @@
 ;; インデントにタブ文字を使用しない
 (setq-default indent-tabs-mode nil)
 
+;; file名の補完で大文字小文字を区別しない
+(setq completion-ignore-case t)
+
+;;yes-noの選択肢をy-nにする
+(fset 'yes-or-no-p 'y-or-n-p)
+
+;;自動再読み込み
+(global-auto-revert-mode 1)
 
 ;; 文字エンコーディング
 ;; Mac だけに読み込ませる
