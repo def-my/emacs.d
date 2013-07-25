@@ -12,6 +12,7 @@
     auto-complete
     exec-path-from-shell
     redo+
+    migemo
     undo-tree
     undo-hist
     popup
@@ -20,6 +21,7 @@
     ruby-block
     rbenv
     migemo
+    markdown.mode
     ))
 
 (let ((not-installed (loop for x in installing-package-list
