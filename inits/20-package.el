@@ -21,7 +21,8 @@
     ruby-block
     rbenv
     migemo
-    markdown.mode
+    markdown-mode
+    rst
     ))
 
 (let ((not-installed (loop for x in installing-package-list
