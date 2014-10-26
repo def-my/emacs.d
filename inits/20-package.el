@@ -3,7 +3,7 @@
 (add-to-list 'package-archives '("marmalade" . "http://marmalade-repo.org/packages/"))
 (package-initialize)
 
-(require 'cl)
+(package-refresh-contents)
 
 (defvar installing-package-list
   '(
@@ -25,10 +25,6 @@
     rst
     ))
 
-(let ((not-installed (loop for x in installing-package-list
-                            when (not (package-installed-p x))
-                            collect x)))
-  (when not-installed
-    (package-refresh-contents)
-    (dolist (pkg not-installed)
-        (package-install pkg))))
+(dolist (package installing-package-list)
+  (unless (package-installed-p package)
+    (package-install package)))
