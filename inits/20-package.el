@@ -20,7 +20,6 @@
     js2-mode
     ruby-block
     rbenv
-    migemo
     markdown-mode
     rst
     ))
