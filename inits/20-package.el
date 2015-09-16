@@ -16,6 +16,7 @@
     undo-tree
     undo-hist
     popup
+    magit
     flymake
     js2-mode
     ruby-block
