@@ -8,7 +8,7 @@
 (defvar installing-package-list
   '(
     ;; ここに使っているパッケージを書く。
-    anything
+    helm
     auto-complete
     exec-path-from-shell
     redo+
