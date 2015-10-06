@@ -23,6 +23,7 @@
     rbenv
     markdown-mode
     rst
+    smartparens
     ))
 
 (dolist (package installing-package-list)
