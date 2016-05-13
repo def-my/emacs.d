@@ -15,6 +15,9 @@
 ;; 引数のディレクトリとそのサブディレクトリをload-path に追加
 ;; (add-to-load-path "elisp" "conf" "public_repos")
 
+;; theme
+(load-theme 'manoj-dark t)
+
 ;; M-x package-install init-loaderでinit-loaderをインストールしておくこと
 (require 'package)
 (add-to-list 'package-archives '("melpa" . "http://melpa.milkbox.net/packages/") t)
