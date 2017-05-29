@@ -8,22 +8,22 @@
 (defvar installing-package-list
   '(
     ;; ここに使っているパッケージを書く。
-    helm
-    auto-complete
-    exec-path-from-shell
-    redo+
-    migemo
-    undo-tree
-    undo-hist
-    popup
-    magit
-    flymake
-    js2-mode
-    ruby-block
-    rbenv
-    markdown-mode
-    rst
-    smartparens
+    ;;helm
+    ;;auto-complete
+    ;;exec-path-from-shell
+    ;;redo+
+    ;;migemo
+    ;;undo-tree
+    ;;undo-hist
+    ;;popup
+    ;;magit
+    ;;flymake
+    ;;js2-mode
+    ;;ruby-block
+    ;;rbenv
+    ;;markdown-mode
+    ;;rst
+    ;;smartparens
     ))
 
 (dolist (package installing-package-list)
