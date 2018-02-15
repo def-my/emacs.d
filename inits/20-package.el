@@ -1,6 +1,5 @@
 (require 'package)
-(add-to-list 'package-archives '("melpa" . "http://melpa.milkbox.net/packages/"))
-(add-to-list 'package-archives '("marmalade" . "http://marmalade-repo.org/packages/"))
+(add-to-list 'package-archives '("melpa" . "http://stable.melpa.org/packages/") t)
 (package-initialize)
 
 (package-refresh-contents)
